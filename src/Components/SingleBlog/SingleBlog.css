@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.card-container {
+    text-align: left;
+}
+
+.primaryColor {
+    color: #3ABC7E;
+    /* color: #097340; */
+}

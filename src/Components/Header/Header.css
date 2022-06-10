@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.navbar {
+    background-color: #3ABC7E;
+    color: #F3FFE3;
+}
+
+.logoTitle img {
+
+    width: 69.64px;
+    height: 53.32px;
+
+}
+
+.linkStyle {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 15px;
+}

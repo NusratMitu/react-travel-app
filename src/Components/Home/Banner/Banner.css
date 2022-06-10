@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.banner img {
+    height: 500px;
+}
+
+.caption {
+    color: #000000;
+    padding: 0px 400px 150px 0px;
+}
+
+.caption h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.caption p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.coloredCaption {
+    color: rgb(65, 175, 65);
+}
