@@ -1,17 +1,17 @@
 .contact {
-
     position: relative;
+    margin: 0%;
+    height: 194px;
 }
-
 .first-txt {
     position: absolute;
-    top: 17px;
+    top: 15px;
     left: 400px;
 }
 
 .inputForm {
     position: absolute;
-    bottom: 30px;
+    bottom: 105px;
     left: 350px;
 }
 

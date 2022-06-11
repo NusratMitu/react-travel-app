@@ -1,9 +1,10 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import useBlog from '../../Hooks/useBlog';
+import AboutAuthor from '../AboutAuthor/AboutAuthor';
+import ContactUs from '../ContactUs/ContactUs';
 import SingleBlog from '../SingleBlog/SingleBlog';
 import Banner from './Banner/Banner';
-// import Carousel from 'react-bootstrap/Carousel';
 
 const Home = () => {
     const blogs = useBlog();
@@ -17,6 +18,8 @@ const Home = () => {
           
         }
         </Row>
+        <AboutAuthor></AboutAuthor>
+        <ContactUs></ContactUs>
         </div>
     );
 };

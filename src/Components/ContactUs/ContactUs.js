@@ -8,25 +8,28 @@ import InputGroup from 'react-bootstrap/InputGroup';
 const ContactUs = () => {
     return (
         <div className='contact'>
-            <img className='img-fluid' src={bg} alt="" />
+            <img className='h-100' src={bg} alt="" />
           <div class="first-txt fw-bold">
-          <h6 style={{color:'#097340'}}>Subscribe to newsletter</h6>
+          <h6 className='fw-bolder' style={{color:'#097340'}}>Subscribe to newsletter</h6>
         <h4 className='fw-bolder'>Get each & every new blogs through your e-mail</h4>
         </div>
-          
-        {/* <h3 class="second-txt">
-            A computer science portal
-        </h3> */}
-        <InputGroup className='inputForm w-50'>
-        <Form.Control className='py-3 px-5'
+       <div className='mb-0 pb-0'>
+       <form onSubmit={(e) => {e.preventDefault();
+            alert('Email address has been listed successfully');
+            }}> 
+            <InputGroup className='inputForm w-50'>
+        <Form.Control required className='py-2 px-5'
           placeholder="Your email address..."
           aria-label="Your email address..."
           aria-describedby="basic-addon2"
         />
-        <Button className='subscribeBtn fw-bold' id="button-addon2">
+        <Button type='submit' className='subscribeBtn fw-bold' id="button-addon2">
         SUBSCRIBE
         </Button>
       </InputGroup>
+        </form>
+       </div>
+        
         </div>
     );
 };

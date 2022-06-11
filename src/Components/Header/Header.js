@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../../images/Vector.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -16,10 +17,10 @@ const Header = () => {
           </div>
          <div>
           <Nav >
-            <Nav.Link className='linkStyle text-white' href="#home">Home</Nav.Link>
-            <Nav.Link className='linkStyle text-white' href="#blog">Blog</Nav.Link>
-            <Nav.Link className='linkStyle text-white' href="#aboutAuthor">About Author</Nav.Link>
-            <Nav.Link className='linkStyle text-white' href="#contactUs">Contact Us</Nav.Link>
+          <Link className='linkStyle text-white' to="/">Home</Link>
+          <Link className='linkStyle text-white' to="blog">Blog</Link>
+          <Link className='linkStyle text-white' to="aboutAuthor">About Author</Link>
+          <Link className='linkStyle text-white' to="contactUs">Contact Us</Link>
           </Nav>
          </div>
         </Container>

@@ -6,13 +6,13 @@
 
 .caption {
     color: #000000;
-    padding: 0px 400px 150px 0px;
+    padding: 0px 450px 150px 0px;
 }
 
 .caption h3 {
     font-style: normal;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 32px;
     line-height: 38px;
 }
 
@@ -22,5 +22,9 @@
 }
 
 .coloredCaption {
-    color: rgb(65, 175, 65);
+    color: #7BBC3A;
+}
+
+.secondSlider img{
+    box-shadow: 120px -100px #3ABC7E;
 }
