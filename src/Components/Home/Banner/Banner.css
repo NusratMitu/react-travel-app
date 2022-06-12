@@ -84,6 +84,9 @@
         font-size: 8px;
         line-height: 3px;
     }
+    .secondSlider{
+        display: none;
+    }
     
     
     
