@@ -6,12 +6,12 @@ import { NavLink } from 'react-router-dom';
 const AboutAuthor = () => {
     return (
        <div>
-          <div className='author my-5 py-5 row d-lg-flex align-items-center '>
+          <div className='author my-5 me-0 py-5 row d-lg-flex align-items-center '>
           <div className='col-lg-6 col-md-12'>
-        <img src={img} alt='traveler' className='w-75 rounded ' />
+        <img src={img} alt='traveler' className='w-75 img-fluid rounded ' />
          </div>
-         <div className='text-start col-lg-6 col-md-12'>
-           <div className='p-3 me-5'>
+         <div className='text-start col-lg-6 col-md-11'>
+           <div className='px-3'>
            <h3 className='fw-bolder pt-3'>About Author</h3>
            <p className='fw-bold primaryColor'> Live with no excuses & travel with no regrets</p>
            <p style={{color: '#828282'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 

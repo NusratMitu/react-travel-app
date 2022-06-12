@@ -11,7 +11,7 @@ const Banner = () => {
 
 	<div className=''>
 	<Carousel className='banner'>
-		{/* <Carousel.Item >
+		<Carousel.Item >
 		<div className='fisrtSlider'>
 		<img className="w-100" src={firstSlide} alt="first"
 		/>
@@ -25,7 +25,7 @@ dolore magina aliqua. </p>
             Continue for reading
           </NavLink>
 		</Carousel.Caption>
-		</Carousel.Item> */}
+		</Carousel.Item> 
 		{/* second slider */}
 		<Carousel.Item >
 			<div className='secondSlider py-5 m-5 d-flex justify-content-center align-items-center ' >

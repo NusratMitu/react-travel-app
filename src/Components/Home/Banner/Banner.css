@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .banner { 
-    height: 500px;
+    /* height: 500px; */
  } 
 .banner img { 
     height: 500px;
@@ -41,17 +41,38 @@
     .caption {
         padding: 10px;
         width: 400px;
+        padding-top:  250px;
     }
     
     .caption h3 {
         font-weight: 400;
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 13px;
+        line-height: 12px;
+        padding-top: 150px;
     }
     
     .caption p {
         font-weight: 200;
         font-size: 12px;
+        width: 400px;
+    } 
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 614px) {
+ 
+    .caption h3 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 10px;
+        padding-top: 150px;
+    }
+    
+    .caption p {
+        font-size: 10px;
         width: 400px;
     } 
     
