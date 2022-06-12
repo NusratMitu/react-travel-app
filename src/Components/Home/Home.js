@@ -19,7 +19,7 @@ const Home = () => {
         }
         </Row>
         <AboutAuthor></AboutAuthor>
-        <ContactUs></ContactUs>
+        <ContactUs></ContactUs>  
         </div>
     );
 };

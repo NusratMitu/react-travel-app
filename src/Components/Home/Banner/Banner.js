@@ -9,36 +9,37 @@ import { NavLink } from 'react-router-dom';
 const Banner = () => {
     return (
 
-	<div className='banner'>
-	<Carousel>
-		<Carousel.Item interval={2500}>
-		<img className="d-block w-100" src={firstSlide} alt="first"
+	<div className=''>
+	<Carousel className='banner'>
+		{/* <Carousel.Item >
+		<div className='fisrtSlider'>
+		<img className="w-100" src={firstSlide} alt="first"
 		/>
-		<Carousel.Caption className='text-start caption fw-bold'>
-			<h3 className='fw-bolder'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-dolore magina aliqua. Quis ipsum suspendise ultrces gravida. Risus commodo viverra maecenas accumsan 
-lacus vel facilisis</p>
-<NavLink className='primaryColor linkHover fw-bold text-decoration-none'
+		</div>
+		<Carousel.Caption className='text-start caption text-black py-5 fw-bold'>
+			<h3 className='fw-bolder fs-lg-1'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
+			<p className='fw-light lh-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+dolore magina aliqua. </p>
+<NavLink className='primaryColor linkHover bannerlink fw-lg-bolder text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
 		</Carousel.Caption>
-		</Carousel.Item>
+		</Carousel.Item> */}
 		{/* second slider */}
-		<Carousel.Item interval={500} >
-			<div className='secondSlider p-5 m-5 d-flex justify-content-center ' >
+		<Carousel.Item >
+			<div className='secondSlider py-5 m-5 d-flex justify-content-center align-items-center ' >
 			<div className='w-50 '>
 			<Carousel.Caption className='text-start caption fw-bold'>
 			<h3 className='fw-bolder'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-dolore magina aliqua. Quis ipsum suspendise ultrces gravida. Risus commodo viverra maecenas accumsan 
-lacus vel facilisis</p>
+dolore magina aliqua.</p>
 <NavLink className='primaryColor linkHover fw-bold text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
 		</Carousel.Caption>
+
 			</div>
 			<div className='w-50 ps-5' >
 				<img src={secondSlide} alt='traveler' className='h-100 w-100 rounded' />
@@ -47,6 +48,7 @@ lacus vel facilisis</p>
 		
 		</Carousel.Item>
 	</Carousel>
+	
 	</div>
 );
 }

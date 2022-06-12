@@ -7,17 +7,16 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 const ContactUs = () => {
     return (
-        <div className='contact'>
-            <img className='h-100' src={bg} alt="" />
-          <div class="first-txt fw-bold">
+        <div className='position-relative contact'>
+            <img className=' w-100' src={bg} alt="" />
+          <div className=" contactText position-absolute top-0 start-50 translate-middle-x fw-bold">
           <h6 className='fw-bolder' style={{color:'#097340'}}>Subscribe to newsletter</h6>
         <h4 className='fw-bolder'>Get each & every new blogs through your e-mail</h4>
-        </div>
-       <div className='mb-0 pb-0'>
-       <form onSubmit={(e) => {e.preventDefault();
+          
+        <form onSubmit={(e) => {e.preventDefault();
             alert('Email address has been listed successfully');
             }}> 
-            <InputGroup className='inputForm w-50'>
+            <InputGroup className=' w-100'>
         <Form.Control required className='py-2 px-5'
           placeholder="Your email address..."
           aria-label="Your email address..."
@@ -28,8 +27,8 @@ const ContactUs = () => {
         </Button>
       </InputGroup>
         </form>
-       </div>
         
+        </div>
         </div>
     );
 };

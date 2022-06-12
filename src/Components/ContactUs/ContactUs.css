@@ -1,4 +1,4 @@
-.contact {
+/* .contact {
     position: relative;
     margin: 0%;
     height: 194px;
@@ -13,8 +13,14 @@
     position: absolute;
     bottom: 105px;
     left: 350px;
-}
+} */
 
+.contactText {
+    padding: 100px 0px;
+}
+.contact img {
+    height: 300px;
+}
 .subscribeBtn {
     color: white;
     background: linear-gradient(90.98deg, #3ABC7E 0.85%, #42D58E 99.49%);
@@ -24,3 +30,11 @@
     padding: 0px 35px;
 
 }
+
+/* Mobile device */
+ @media only screen and (max-width: 768px) {
+    .contact img {
+        height: 400px;
+    }
+
+} 

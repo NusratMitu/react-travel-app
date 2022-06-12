@@ -8,23 +8,27 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-            <Navbar className='navbar'>
-        <Container className='d-flex justify-content-between'>
-          <div className='logoTitle d-flex justify-content-between align-item-center'>
+      <Navbar collapseOnSelect expand="lg" sticky="top" >
+  <Container>
+  <Navbar.Brand>
+  <div className='logoTitle text-white d-flex justify-content-between align-item-center'>
               <img src={logo} alt="" />
           <h5>Happy <br /> Travel
           </h5>
           </div>
-         <div>
-          <Nav >
+  </Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className=" mx-auto">
           <Link className='linkStyle text-white' to="/">Home</Link>
           <Link className='linkStyle text-white' to="blog">Blog</Link>
           <Link className='linkStyle text-white' to="aboutAuthor">About Author</Link>
           <Link className='linkStyle text-white' to="contactUs">Contact Us</Link>
-          </Nav>
-         </div>
-        </Container>
-      </Navbar>
+      
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
     );
 };
 
