@@ -9,7 +9,7 @@ const SingleBlog = (props) => {
     return (
         <div className="card-container my-5">
       <Col>
-      <Card className='border-0 w-100' style={{ width: '18rem' }} >
+      <Card className='border-0 w-100 ' style={{ width: '18rem' }} >
       <Card.Img variant="top" src={img} style={{height:"250px"}} className="card-img rounded mx-auto d-block w-75" />
       <div className='mx-3'>
       <Card.Body>

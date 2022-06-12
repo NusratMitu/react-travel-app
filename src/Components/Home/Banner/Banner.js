@@ -10,43 +10,38 @@ const Banner = () => {
     return (
 
 	<div className=''>
-	<Carousel className='banner'>
-		<Carousel.Item >
-		<div className='fisrtSlider'>
+	<Carousel className='banner '>
+		<Carousel.Item>
+		<div className=' position-relative'>
 		<img className="w-100" src={firstSlide} alt="first"
 		/>
 		</div>
-		<Carousel.Caption className='text-start caption text-black py-5 fw-bold'>
-			<h3 className='fw-bolder fs-lg-1'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
-			<p className='fw-light lh-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+		<Carousel.Caption className='text-start caption text-black m-5 ps-5 ms-5 position-absolute top-0 start-0'>
+			<h3 className='fw-bolder w-75'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
+			<p className='w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
 dolore magina aliqua. </p>
-<NavLink className='primaryColor linkHover bannerlink text-decoration-none'
+<NavLink className='primaryColor linkHover bannerLink text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
 		</Carousel.Caption>
 		</Carousel.Item> 
 		{/* second slider */}
-		<Carousel.Item >
-			<div className='secondSlider py-5 m-5 d-flex justify-content-center align-items-center ' >
-			<div className='w-50 '>
-			<Carousel.Caption className='text-start caption fw-bold'>
-			<h3 className='fw-bolder'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-dolore magina aliqua.</p>
-<NavLink className='primaryColor bannerLink linkHover text-decoration-none'
+		<Carousel.Item>
+		<div className=' position-relative'>
+		<img className="w-100" src={firstSlide} alt="first"
+		/>
+		</div>
+		<Carousel.Caption className='text-start caption text-black m-5 ps-5 ms-5 position-absolute top-0 start-0'>
+			<h3 className='fw-bolder w-75'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
+			<p className='w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+dolore magina aliqua. </p>
+<NavLink className='primaryColor linkHover bannerLink text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
 		</Carousel.Caption>
-
-			</div>
-			<div className='w-50 ps-5' >
-				<img src={secondSlide} alt='traveler' className='h-100 w-100 rounded' />
-			</div>
-			</div>
-		
-		</Carousel.Item>
+		</Carousel.Item> 
 	</Carousel>
 	
 	</div>

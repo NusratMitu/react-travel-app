@@ -30,11 +30,16 @@
     padding: 0px 35px;
 
 }
-
+.inputWidth{
+    width: 50rem;
+}
 /* Mobile device */
  @media only screen and (max-width: 768px) {
     .contact img {
         height: 400px;
+    }
+    .inputWidth{
+        width: 15rem;
     }
 
 } 

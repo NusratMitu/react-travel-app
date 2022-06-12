@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const AboutAuthor = () => {
     return (
-       <div>
+       <div className='mx-5'>
           <div className='author my-5 me-0 py-5 row d-lg-flex align-items-center '>
           <div className='col-lg-6 col-md-12'>
         <img src={img} alt='traveler' className='w-75 img-fluid rounded ' />
