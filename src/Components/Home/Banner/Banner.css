@@ -4,7 +4,7 @@
     /* height: 500px; */
  } 
 .banner img { 
-    height: 500px;
+    height: 400px;
  } 
 
 .caption {
@@ -36,7 +36,7 @@
 }
 
 /* Mobile device */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 615px){
     
     .caption {
         padding: 10px;
@@ -56,7 +56,10 @@
         font-size: 12px;
         width: 400px;
     } 
-    
+    .bannerLink {
+        font-size: 12px;
+        line-height: 3px;
+    }
     
     
     
@@ -64,17 +67,23 @@
 
 @media only screen and (max-width: 614px) {
  
+    .caption {
+        width: 300px;
+    }
     .caption h3 {
         font-weight: 300;
         font-size: 12px;
-        line-height: 10px;
-        padding-top: 150px;
+        line-height: 8px;
+        /* padding-top: 150px; */
     }
     
     .caption p {
-        font-size: 10px;
-        width: 400px;
+        font-size: 8px;
     } 
+    .bannerLink {
+        font-size: 8px;
+        line-height: 3px;
+    }
     
     
     

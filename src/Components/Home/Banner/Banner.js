@@ -20,7 +20,7 @@ const Banner = () => {
 			<h3 className='fw-bolder fs-lg-1'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
 			<p className='fw-light lh-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
 dolore magina aliqua. </p>
-<NavLink className='primaryColor linkHover bannerlink fw-lg-bolder text-decoration-none'
+<NavLink className='primaryColor linkHover bannerlink text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
@@ -34,7 +34,7 @@ dolore magina aliqua. </p>
 			<h3 className='fw-bolder'>Live with no <span className='coloredCaption'> excuses & travel</span> <br /> with no regrets</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
 dolore magina aliqua.</p>
-<NavLink className='primaryColor linkHover fw-bold text-decoration-none'
+<NavLink className='primaryColor bannerLink linkHover text-decoration-none'
             to="aboutAuthor"   >
             Continue for reading
           </NavLink>
